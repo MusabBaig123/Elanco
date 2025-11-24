@@ -59,18 +59,13 @@ Report a Sighting
 - Image upload  
 - Simulated local DB (per requirements)
 
----
-
  API Used
 
  https://dev-task.elancoapps.com/data/tick-sightings
 
-
 No authentication or API key required.
 
----
-
-## 🛠 Tech Stack
+ Tech Stack
 
 **Frontend**  
 - React 19  
