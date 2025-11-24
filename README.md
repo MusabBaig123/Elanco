@@ -112,3 +112,5 @@ The project will now run at:
 
 This project uses the live API from the task:
 
+Project Walkthrough Video
+https://youtu.be/Z989noDjaDY
