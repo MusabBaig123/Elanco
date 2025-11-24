@@ -1,88 +1,16 @@
-TickSight – UK Tick Sighting Tracker  
-An interactive React application for visualising tick activity across the UK.  
-Developed for the **Elanco Frontend Technical Task – Placement Program**.
+# React + Vite
 
- Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-TickSight is a web application that maps tick sightings across the UK using real-time data from the Elanco API.  
-It allows users to:
+Currently, two official plugins are available:
 
-- Browse an **interactive map** of tick sightings  
-- Filter sightings by **species** and **severity level**  
-- Click markers to view details  
-- See a **timeline view** of all sightings  
-- Open a **modal** for full sighting information  
-- Read educational information (species, prevention, seasonal activity)  
-- Report a new sighting (with validation & image upload)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-The goal is to make an intuitive, informative tool for public awareness.
+## React Compiler
 
-Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Interactive Map (React Leaflet)**
-- Pins each tick sighting based on its coordinates  
-- Marker **popups** show species, date, severity, and a details link  
-- **Species filter** (5 fixed species)
-- **Severity filter** (Low, Medium, High)
-- Designed to meet **all core map requirements** in the brief
+## Expanding the ESLint configuration
 
-Sighting Information**
-- Modal view for full details  
-- Click-through from map markers  
-- Timeline list view  
-- Filter by location  
-- Quick navigation options
-
- Education Section**
-- Tick species guide  
-- Prevention tips  
-- Seasonal activity chart using Recharts
-
-Report a Sighting**
-- Custom form  
-- Validation: error, warning & success messages  
-- Image upload  
-- Simulated local DB (per requirements)
-
----
- API Used
-
-This project uses the live API from the task:
-
-https://dev-task.elancoapps.com/data/tick-sightings
-
-
-No authentication or API key required.
-
- Tech Stack
-
-**Frontend**  
-- React 19  
-- Vite  
-- React Router 7  
-- CSS  
-
-Mapping
-- React Leaflet  
-- Leaflet  
-- react-leaflet-markercluster  
-
-**Charts & Data**  
-- Chart.js  
-- react-chartjs-2  
-- Recharts  
-- Axios  
-
-Follow these steps to run the project locally.
-
-Clone the repository
-```sh
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.gicd my-tick-react-app
-install dependencies
-This installs everything from package.json:
-
-npm install
-
-npm run dev
-The project will now run at:
- http://localhost:5173
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
