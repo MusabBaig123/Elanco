@@ -1,10 +1,8 @@
-# 🐾 TickSight – UK Tick Sighting Tracker  
+TickSight – UK Tick Sighting Tracker  
 An interactive React application for visualising tick activity across the UK.  
 Developed for the **Elanco Frontend Technical Task – Placement Program**.
 
----
-
-## 📌 Overview
+ Overview
 
 TickSight is a web application that maps tick sightings across the UK using real-time data from the Elanco API.  
 It allows users to:
@@ -19,38 +17,35 @@ It allows users to:
 
 The goal is to make an intuitive, informative tool for public awareness.
 
----
+Features
 
-## 🚀 Features
-
-### 🗺️ **Interactive Map (React Leaflet)**
+Interactive Map (React Leaflet)**
 - Pins each tick sighting based on its coordinates  
 - Marker **popups** show species, date, severity, and a details link  
 - **Species filter** (5 fixed species)
 - **Severity filter** (Low, Medium, High)
 - Designed to meet **all core map requirements** in the brief
 
-### 🧭 **Sighting Information**
+Sighting Information**
 - Modal view for full details  
 - Click-through from map markers  
 - Timeline list view  
 - Filter by location  
 - Quick navigation options
 
-### 🎓 **Education Section**
+ Education Section**
 - Tick species guide  
 - Prevention tips  
 - Seasonal activity chart using Recharts
 
-### 📝 **Report a Sighting**
+Report a Sighting**
 - Custom form  
 - Validation: error, warning & success messages  
 - Image upload  
 - Simulated local DB (per requirements)
 
 ---
-
-## 🌍 API Used
+ API Used
 
 This project uses the live API from the task:
 
@@ -59,9 +54,7 @@ https://dev-task.elancoapps.com/data/tick-sightings
 
 No authentication or API key required.
 
----
-
-## 🛠 Tech Stack
+ Tech Stack
 
 **Frontend**  
 - React 19  
@@ -69,7 +62,7 @@ No authentication or API key required.
 - React Router 7  
 - CSS  
 
-**Mapping**  
+Mapping
 - React Leaflet  
 - Leaflet  
 - react-leaflet-markercluster  
